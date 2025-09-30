@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:main2/screens/signin_screen.dart';
 
+void main() {
+  runApp(const MyApp());
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -16,4 +20,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
- 
+

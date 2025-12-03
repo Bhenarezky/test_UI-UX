@@ -1,44 +1,57 @@
-# Dokumentasi Aplikasi Kuis Mobile
+# AnimeVerse
 
-## 1. Data Diri & Laboratorium
+Aplikasi mobile berbasis Flutter untuk menjelajahi dan mengelola koleksi anime favorit Anda.
 
-* **Nama**: Bhenarezky Suranta Ginting
-* **NIM**: 231401003
-* **Lab**: 5 Pemrograman Mobile
+## a. Identitas Mahasiswa
 
----
-
-## 2. Nama Aplikasi
-
-**QUIZ APP: EduQuiz**
-
----
-
-## 3. Deskripsi Aplikasi
-
-EduQuiz adalah aplikasi kuis pilihan ganda berbasis Flutter yang dikembangkan untuk menguji pengetahuan pengguna dalam berbagai kategori mata pelajaran. Aplikasi ini menerapkan pola arsitektur dasar Flutter dengan fokus pada pemisahan logika (Stateful/Stateless) dan komponen UI yang dapat digunakan kembali (*Reusable Widgets*).
-
-**Fitur Utama:**
-
-* **Personalisasi**: Pengguna diwajibkan memasukkan nama sebelum masuk ke halaman utama. Nama ini akan digunakan sebagai sapaan di halaman beranda dan hasil.
-* **Pilihan Kategori**: Menyediakan 5 kategori kuis yang berbeda (**Umum, Sains, Matematika, Bahasa Inggris, Sejarah**), dengan masing-masing kategori memiliki 5 soal yang unik.
-* **Kuis Acak**: Fitur untuk memulai kuis secara acak dari salah satu kategori yang tersedia.
-* **State Management Lokal**: Mengelola *state* kuis (skor, indeks pertanyaan, jawaban yang dipilih) secara lokal menggunakan `StatefulWidget` untuk memastikan progres pengguna tidak hilang saat interaksi.
-* **Halaman Hasil Dinamis**: Menampilkan skor akhir dengan umpan balik pesan dan warna yang berbeda (Hijau, Biru, Oranye, Merah) berdasarkan persentase jawaban benar.
-
-**Struktur Halaman:**
-
-1.  **`PageLogin`**: Halaman awal untuk input nama pengguna.
-2.  **`PageHome`**: Halaman utama untuk menampilkan statistik dan memilih kategori.
-3.  **`PageQuiz`**: Halaman utama logika kuis.
-4.  **`PageResult`**: Halaman untuk menampilkan hasil akhir kuis.
+| Informasi | Detail |
+| :--- | :--- |
+| **Nama** | Bhenarezky Suranta Ginting |
+| **NIM** | 231401003 |
+| **LAB** | 5 |
+| **Mata Kuliah** | LAB Pemrograman Mobile |
 
 ---
 
-## 4. Kredit ke Sumber Aset yang Digunakan
+## b. Project Description
 
-| Tipe Aset | Deskripsi | Sumber Lisensi |
-| :--- | :--- | :--- |
-| **Ikon** | Semua ikon yang digunakan (misalnya: `Icons.lightbulb_outline`, `Icons.emoji_events_outlined`, dll.) | **Google Fonts/Material Icons** (Lisensi Apache 2.0) |
-| **Warna** | Palet warna tema, warna kategori, dan gradien hasil. | Warna *hardcoded* (dikembangkan sendiri) |
-| **Data Soal** | Pertanyaan dan jawaban kuis di dalam `page_quiz.dart`. | Data Lokal (Dummy/Local Data) |
+**AnimeVerse** adalah aplikasi mobile yang dikembangkan menggunakan framework **Flutter**. Aplikasi ini dirancang untuk memberikan pengalaman pengguna yang intuitif dalam menjelajahi informasi seputar anime. Proyek ini mengimplementasikan autentikasi pengguna yang aman dan penyimpanan data berbasis cloud.
+
+### Fitur Utama
+* **Autentikasi Pengguna:** Mendukung Login dan Registrasi menggunakan **Firebase Auth** dan **Google Sign-In** untuk kemudahan akses.
+* **Manajemen State:** Menggunakan `Provider` untuk pengelolaan state aplikasi yang efisien (seperti status autentikasi dan data aplikasi).
+* **Navigasi:** Implementasi routing modern menggunakan `go_router` untuk perpindahan antar halaman yang mulus.
+* **Data Real-time:** Terintegrasi dengan **Cloud Firestore** untuk menyimpan dan mengambil data secara real-time.
+* **Antarmuka Menarik:** Menggunakan font kustom **Urbanist** dan aset visual berkualitas tinggi untuk pengalaman UI/UX yang modern.
+
+### Teknologi yang Digunakan (Tech Stack)
+* **Framework:** Flutter SDK (Dart)
+* **Backend & Auth:** Firebase Core, Firebase Auth, Google Sign-In, Cloud Firestore
+* **State Management:** Provider
+* **Routing:** GoRouter
+* **Network Image:** Cached Network Image
+* **Assets:** SVG Support (flutter_svg)
+
+## Cara Menjalankan Project (Getting Started)
+
+1.  **Clone repositori ini:**
+    ```bash
+    git clone [https://github.com/username-anda/test_ui-ux.git](https://github.com/username-anda/test_ui-ux.git)
+    ```
+2.  **Masuk ke direktori project:**
+    ```bash
+    cd main2
+    ```
+3.  **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
+4.  **Konfigurasi Firebase:**
+    * Pastikan file `google-services.json` (untuk Android) dan `GoogleService-Info.plist` (untuk iOS) telah diletakkan di folder yang sesuai.
+5.  **Jalankan aplikasi:**
+    ```bash
+    flutter run
+    ```
+
+---
+**Catatan:** Proyek ini dibuat untuk memenuhi tugas [Sebutkan Tugas/Pertemuan] pada mata kuliah Pemrograman Mobile.

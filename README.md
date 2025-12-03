@@ -2,7 +2,7 @@
 
 Aplikasi mobile berbasis Flutter untuk menjelajahi dan mengelola koleksi anime favorit Anda.
 
-## a. Identitas Mahasiswa
+## A. Identitas Mahasiswa
 
 | Informasi | Detail |
 | :--- | :--- |
@@ -13,7 +13,7 @@ Aplikasi mobile berbasis Flutter untuk menjelajahi dan mengelola koleksi anime f
 
 ---
 
-## b. Project Description
+## B. Project Description
 
 **AnimeVerse** adalah aplikasi mobile yang dikembangkan menggunakan framework **Flutter**. Aplikasi ini dirancang untuk memberikan pengalaman pengguna yang intuitif dalam menjelajahi informasi seputar anime. Proyek ini mengimplementasikan autentikasi pengguna yang aman dan penyimpanan data berbasis cloud.
 

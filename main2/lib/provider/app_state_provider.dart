@@ -189,7 +189,7 @@ class AppStateProvider extends ChangeNotifier {
   }
 
   /// Remove anime from favorites
- Future<void> removeFavorite(int malId) async {
+  Future<void> removeFavorite(int malId) async {
     final user = FirebaseAuth.instance.currentUser;
     if (user != null){
       await _firestoreService.removeFromFavorites(user.uid, malId);

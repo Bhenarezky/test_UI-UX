@@ -1,4 +1,19 @@
-# Miscellaneous
+# ==========================================
+# SECURITY & CREDENTIALS (Wajib Ada)
+# ==========================================
+# Mencegah upload password dan kunci aplikasi
+key.properties
+**/*.jks
+**/*.keystore
+
+# Mencegah upload konfigurasi lokal & Firebase
+local.properties
+google-services.json
+GoogleService-Info.plist
+
+# ==========================================
+# MISCELLANEOUS
+# ==========================================
 *.class
 *.log
 *.pyc
@@ -12,18 +27,25 @@
 .swiftpm/
 migrate_working_dir/
 
-# IntelliJ related
+# ==========================================
+# INTELLIJ / ANDROID STUDIO
+# ==========================================
 *.iml
 *.ipr
 *.iws
 .idea/
 
+# ==========================================
+# VS CODE
+# ==========================================
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
 #.vscode/
 
-# Flutter/Dart/Pub related
+# ==========================================
+# FLUTTER / DART / PUB
+# ==========================================
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
@@ -33,13 +55,15 @@ migrate_working_dir/
 /build/
 /coverage/
 
-# Symbolication related
+# ==========================================
+# SYMBOLICATION & OBFUSCATION
+# ==========================================
 app.*.symbols
-
-# Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
+# ==========================================
+# ANDROID BUILD ARTIFACTS
+# ==========================================
 /android/app/debug
 /android/app/profile
 /android/app/release

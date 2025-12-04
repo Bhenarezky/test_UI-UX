@@ -20,7 +20,7 @@ Aplikasi mobile berbasis Flutter untuk menjelajahi dan mengelola koleksi anime f
 ### Fitur Utama
 * **Autentikasi Pengguna:** Mendukung Login dan Registrasi menggunakan **Firebase Auth** dan **Google Sign-In** untuk kemudahan akses.
 * **Jelajah Anime (Discovery):** Menampilkan daftar Top Anime yang diambil langsung dari **Jikan API (MyAnimeList)** dengan fitur *infinite scroll*.
-* **Pencarian & Filter:** Fitur pencarian anime dan filter berdasarkan Genre (Action, Horror, dll) secara interaktif.
+* **Pencarian & Filter:** Fitur pencarian anime berdasarkan judul dan filter berdasarkan Genre (Action, Horror, dll) secara interaktif.
 * **Manajemen Favorit:** Pengguna dapat menyimpan anime ke daftar favorit yang terintegrasi dengan **Cloud Firestore** secara real-time.
 * **Antarmuka Modern:** Menggunakan font kustom **Urbanist** dan aset visual berkualitas tinggi untuk pengalaman UI/UX yang nyaman.
 
@@ -39,25 +39,27 @@ Aplikasi mobile berbasis Flutter untuk menjelajahi dan mengelola koleksi anime f
 
 Berikut adalah tampilan antarmuka dari aplikasi AnimeVerse:
 
-| **Login Screen** | **Register Screen** | **Home Screen** | **Genre Filter** |
+| **Login Screen** | **Register Screen** | **Home Screen** | **Search & Filter** |
 |:---:|:---:|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/30eaa254-164a-4dc2-8123-6f05388133e3" width="180" alt="Login"> | <img src="https://github.com/user-attachments/assets/c2f995b3-82f1-4fcb-9fd5-41ef5f2e3c32" width="180" alt="Register"> | <img src="https://github.com/user-attachments/assets/1f4b09d4-3e47-4128-8165-9da49af4de58" width="180" alt="Home"> | <img src="screenshots/filter.png" width="180" alt="Filter"> |
-| *Halaman Masuk* | *Halaman Daftar* | *Halaman Utama* | *Fitur Filter* |
+| <img src="https://github.com/user-attachments/assets/30eaa254-164a-4dc2-8123-6f05388133e3" width="180" alt="Login Screen"> | <img src="https://github.com/user-attachments/assets/c2f995b3-82f1-4fcb-9fd5-41ef5f2e3c32" width="180" alt="Register Screen"> | <img src="https://github.com/user-attachments/assets/1f4b09d4-3e47-4128-8165-9da49af4de58" width="180" alt="Home Screen"> | <img src="https://github.com/user-attachments/assets/0b6c8cf7-28b3-449b-bd36-5938a3467738" width="180" alt="Search & Filter Screen"> |
+| *Halaman Masuk* | *Halaman Daftar* | *Halaman Utama* | *Fitur Pencarian & Filter* |
 
 <br>
 
 | **Anime Detail** | **Favorites Page** | **Profile** |
 |:---:|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/c027eb78-6f41-4ea4-b157-887245fda256" width="180" alt="Detail"> | <img src="https://github.com/user-attachments/assets/1ae75bf8-81fb-4670-9cca-8a761e875118" width="180" alt="Favorite"> | <img src="https://github.com/user-attachments/assets/eda06f7a-550d-47d7-9437-267204a6781f" width="180" alt="Profile"> |
+| <img src="https://github.com/user-attachments/assets/c027eb78-6f41-4ea4-b157-887245fda256" width="180" alt="Detail Screen"> | <img src="https://github.com/user-attachments/assets/1ae75bf8-81fb-4670-9cca-8a761e875118" width="180" alt="Favorite Screen"> | <img src="https://github.com/user-attachments/assets/eda06f7a-550d-47d7-9437-267204a6781f" width="180" alt="Profile Screen"> |
 | *Detail Info & Sinopsis* | *Daftar Favorit Saya* | *Profil Pengguna* |
 
 ---
 
 ## D. Link Demo Aplikasi
 
-Berikut adalah demonstrasi penggunaan aplikasi AnimeVerse:
+Berikut adalah demonstrasi penggunaan aplikasi AnimeVerse. Silakan klik gambar atau link di bawah ini untuk menonton:
 
-[**🔗 Klik Disini untuk Menonton Video Demo**]([https://youtu.be/2_WzkCYC2oA])
+[![Demo Aplikasi Anime Verse](https://img.youtube.com/vi/2_WzkCYC2oA/0.jpg)](https://youtu.be/2_WzkCYC2oA)
+
+> **[🔗 Klik Disini untuk Menonton Video Demo (YouTube)](https://youtu.be/2_WzkCYC2oA)**
 
 ---
 

@@ -41,20 +41,14 @@ Berikut adalah tampilan antarmuka dari aplikasi AnimeVerse:
 
 | **Login Screen** | **Register Screen** | **Home Screen** | **Genre Filter** |
 |:---:|:---:|:---:|:---:|
-| <img src="<img width="432" height="750" alt="Screenshot 2025-12-04 131940" src="https://github.com/user-attachments/assets/30eaa254-164a-4dc2-8123-6f05388133e3" />
-" width="180" alt="Login"> | <img src="<img width="431" height="743" alt="Screenshot 2025-12-04 131954" src="https://github.com/user-attachments/assets/c2f995b3-82f1-4fcb-9fd5-41ef5f2e3c32" />
-" width="180" alt="Register"> | <img src="<img width="430" height="740" alt="Screenshot 2025-12-04 132023" src="https://github.com/user-attachments/assets/1f4b09d4-3e47-4128-8165-9da49af4de58" />
-" width="180" alt="Home"> | <img src="screenshots/filter.png" width="180" alt="Filter"> |
+| <img src="https://github.com/user-attachments/assets/30eaa254-164a-4dc2-8123-6f05388133e3" width="180" alt="Login"> | <img src="https://github.com/user-attachments/assets/c2f995b3-82f1-4fcb-9fd5-41ef5f2e3c32" width="180" alt="Register"> | <img src="https://github.com/user-attachments/assets/1f4b09d4-3e47-4128-8165-9da49af4de58" width="180" alt="Home"> | <img src="screenshots/filter.png" width="180" alt="Filter"> |
 | *Halaman Masuk* | *Halaman Daftar* | *Halaman Utama* | *Fitur Filter* |
 
 <br>
 
 | **Anime Detail** | **Favorites Page** | **Profile** |
 |:---:|:---:|:---:|
-| <img src="<img width="435" height="745" alt="Screenshot 2025-12-04 132054" src="https://github.com/user-attachments/assets/c027eb78-6f41-4ea4-b157-887245fda256" />
-" width="180" alt="Detail"> | <img src="<img width="432" height="749" alt="Screenshot 2025-12-04 132105" src="https://github.com/user-attachments/assets/1ae75bf8-81fb-4670-9cca-8a761e875118" />
-" width="180" alt="Favorite"> | <img src="<img width="436" height="743" alt="Screenshot 2025-12-04 132119" src="https://github.com/user-attachments/assets/eda06f7a-550d-47d7-9437-267204a6781f" />
-" width="180" alt="Profile"> |
+| <img src="https://github.com/user-attachments/assets/c027eb78-6f41-4ea4-b157-887245fda256" width="180" alt="Detail"> | <img src="https://github.com/user-attachments/assets/1ae75bf8-81fb-4670-9cca-8a761e875118" width="180" alt="Favorite"> | <img src="https://github.com/user-attachments/assets/eda06f7a-550d-47d7-9437-267204a6781f" width="180" alt="Profile"> |
 | *Detail Info & Sinopsis* | *Daftar Favorit Saya* | *Profil Pengguna* |
 
 ---
@@ -63,9 +57,7 @@ Berikut adalah tampilan antarmuka dari aplikasi AnimeVerse:
 
 Berikut adalah demonstrasi penggunaan aplikasi AnimeVerse:
 
-[**🔗 Klik Disini untuk Menonton Video Demo**](https://youtube.com/link_video_anda)
-
-*(Ganti link di atas dengan link YouTube atau Google Drive video demo Anda)*
+[**🔗 Klik Disini untuk Menonton Video Demo**]((https://youtu.be/2_WzkCYC2oA))
 
 ---
 

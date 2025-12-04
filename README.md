@@ -57,7 +57,7 @@ Berikut adalah tampilan antarmuka dari aplikasi AnimeVerse:
 
 Berikut adalah demonstrasi penggunaan aplikasi AnimeVerse:
 
-[**🔗 Klik Disini untuk Menonton Video Demo**]((https://youtu.be/2_WzkCYC2oA))
+[**🔗 Klik Disini untuk Menonton Video Demo**]([https://youtu.be/2_WzkCYC2oA])
 
 ---
 

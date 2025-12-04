@@ -41,22 +41,28 @@ class GenreList extends StatelessWidget {
 
           return Padding(
             padding: EdgeInsets.only(right: screenWidth * 0.06),
-            child: InkWell(
-              borderRadius: BorderRadius.circular(screenWidth * 0.06),
+            child: GestureDetector(
+              // PENGGANTI INKWELL: Menggunakan GestureDetector agar sentuhan pasti terdeteksi
               onTap: () {
-                // TODO: Update the selected genre and filter the anime list accordingly
+                print("Genre diklik: $genre"); // Debugging untuk cek di terminal
+                if (onGenreSelected != null) {
+                  onGenreSelected!(genre);
+                }
               },
-              child: Container(
+              child: AnimatedContainer(
+                // Menggunakan AnimatedContainer agar perubahan warna halus
+                duration: const Duration(milliseconds: 200),
                 padding: EdgeInsets.symmetric(
                   horizontal: screenWidth * 0.06,
                   vertical: screenHeight * 0.01,
                 ),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(screenWidth * 0.06),
-                    color: const Color(0xFF0b395e),
+                    // Logika warna: Biru terang jika aktif, Biru gelap jika tidak
+                    color: isActive ? const Color(0xFF2196F3) : const Color(0xFF0b395e),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withValues(alpha: 0.3),
+                        color: Colors.black.withOpacity(0.3),
                         blurRadius: screenWidth * 0.02,
                         offset: Offset(0, screenHeight * 0.005),
                       ),
@@ -66,7 +72,7 @@ class GenreList extends StatelessWidget {
                   genre,
                   style: TextStyle(
                     fontSize: screenWidth * 0.04,
-                    color: isActive ? Colors.white : Colors.grey.shade600,
+                    color: isActive ? Colors.white : Colors.grey.shade400,
                     fontWeight: FontWeight.w700,
                   ),
                 ),
